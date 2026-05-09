@@ -1,0 +1,11 @@
+[phases.setup]
+nixPkgs = ["jdk17"]
+
+[phases.install]
+cmds = ["./mvnw clean package -DskipTests"]
+
+[phases.start]
+cmd = "java -jar target/Hotel-Booking-System-0.0.1-SNAPSHOT.jar"
+
+[[ports]]
+port = 8080
