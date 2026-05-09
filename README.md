@@ -23,7 +23,13 @@ A hotel booking web application I built as a school project.
 2. Create database called hotel_db
 3. Open terminal in project folder
 4. Run: ./mvnw spring-boot:run
-5. Open browser to localhost:8080
+5. Open browser to: http://localhost:8080
+
+## Live Demo
+
+Run locally: http://localhost:8080
+- Login page: http://localhost:8080/login.html
+- Register page: http://localhost:8080/register.html
 
 ## Login
 
@@ -47,6 +53,10 @@ A hotel booking web application I built as a school project.
 ## Author
 
 Korn Chansoklin
+
+## GitHub Repository
+
+https://github.com/chansoklin/hotel-booking-system
 
 ## Date
 
